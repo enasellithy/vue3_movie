@@ -8,6 +8,6 @@ module.exports = defineConfig({
 		}
   },
    publicPath: process.env.NODE_ENV === 'production'
-    ? '/' + process.env.CI_PROJECT_NAME + '/'
+    ? '/' + process.env.CI_PROJECT_NAME + '/vue3_movie'
     : '/'
 })
