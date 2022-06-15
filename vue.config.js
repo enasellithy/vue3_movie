@@ -7,7 +7,7 @@ module.exports = defineConfig({
 			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
 		}
   },
-   publicPath: process.env.NODE_ENV === 'production'
-    ? '/' + process.env.CI_PROJECT_NAME + '/vue3_movie'
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/' + process.env.CI_PROJECT_NAME + '/'
     : '/'
 })
