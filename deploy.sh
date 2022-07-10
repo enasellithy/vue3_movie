@@ -17,9 +17,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://enasellithy.github.io
-# git push -f git@github.com:enasellithy/enasellithy.github.io.git main
+git push -f git@github.com:enasellithy/enasellithy.github.io.git main
 
 # if you are deploying to https://enasellithy.github.io/vue3_movie
-# git push -f git@github.com:enasellithy/vue3_movie.git main:gh-pages
+git push -f git@github.com:enasellithy/vue3_movie.git main:gh-pages
 
 cd -
